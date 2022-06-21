@@ -11,9 +11,9 @@ Initial data cleaning was done on Google Colab and further explored with the hel
 Once implemented in python both the Word cloud library and matplotlib libraries were imported to help in visualizing the generated plots
 
 There were three primary steps in building a word cloud:
-•	Extract the symptoms column (text column)
-•	Create and generate a wordcloud image
-•	Display the frequency using matplotlib 
+1. Extract the symptoms column (text column)
+2. Create and generate a wordcloud image
+3. Display the frequency using matplotlib 
 
 
 <img width="1251" alt="wordcloud" src="https://user-images.githubusercontent.com/42086991/174858105-e5c64136-7489-4e4c-9077-7bb2ac953fd6.png">
