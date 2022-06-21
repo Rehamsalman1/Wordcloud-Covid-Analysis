@@ -23,21 +23,25 @@ This is an extract of the Code for getting the Top words that are most frequent 
 Additionally, another variable holds a list of values that were manually excluded to improve the results. Further discussion as to why this list was added is explained in the next chapter.
 The astype ensures that each value of the text variable holds a string rather than any other data-type as this would hamper the results. 
 
-<img width="400" alt="code3" src="https://user-images.githubusercontent.com/42086991/174860575-23cd30e7-8317-4890-84a5-8912ed5d86e8.png">
 
+<img width="400" alt="code2" src="https://user-images.githubusercontent.com/42086991/174860677-4988a8fa-c8a5-4099-840d-b330714d039a.png">
 Once the text had the data from the column it was passed to the WordCloud object that took the stopwords and the text as parameters and saved in a new variable. The variable was then used to pass to the PLT object that helped to display the wordcloud image.
 There were three different results each with a new finding and improvement from the previous results.
 
-
-<img width="400" alt="code2" src="https://user-images.githubusercontent.com/42086991/174860677-4988a8fa-c8a5-4099-840d-b330714d039a.png">
-
-<img width="400" alt="code5" src="https://user-images.githubusercontent.com/42086991/174860728-751a5e7e-ba8d-4e15-903c-21a26a1c7a15.png">
-
-
-             
-
-
-
+<img width="400" alt="code3" src="https://user-images.githubusercontent.com/42086991/174860575-23cd30e7-8317-4890-84a5-8912ed5d86e8.png">
+##STOPWORDS Evaluation:
+However, site was being repeated in the cloud and it was not easy to differentiate between the words as they all look similar in terms of the size. Therefore, to improve the NLP technique another test was performed but with more StopWords added such as Injection and Site. Additionally, the previous test only took one column out of the five columns of symptoms in the 1.2 dataset. Therefore, as explained earlier the data was concatenated into one column. This was used for the next dataset. 
 
 <img width="1251" alt="wordcloud" src="https://user-images.githubusercontent.com/42086991/174858105-e5c64136-7489-4e4c-9077-7bb2ac953fd6.png">
-                                
+The word cloud highlighted that Pain Rash and Fatigue were the highest most frequent words in the symptoms that patients experienced from taking the vaccine. A second test was done to evaluate the results to see if the frequency count matches the visualization.  The code for that test is depicted below.
+
+                 
+
+The value counts method was used in the Bar chart for the top 5 most frequent words in the dataset. 
+                                        
+
+The bar chart shows that the model matches the visualization as the frequency count is similar to the biggest words in the Fig above. The word cloud tells clinicians which symptom is most frequent.
+<img width="400" alt="wordcloud" src="https://user-images.githubusercontent.com/42086991/174861688-f7028439-cdb1-4c6c-8bb0-060aad82cd11.png">
+
+
+      
