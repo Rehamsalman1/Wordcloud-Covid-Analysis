@@ -1,9 +1,9 @@
-# Wordcloud-Covid-Analysis
+# Wordcloud-CovidVaccine-Analysis
 
 Word Cloud is a visualization technique for text data wherein each word is picturized with its importance in the context or its frequency. 
 
 # Objective:
-To help clinicians know more about which symptoms of Covid are most frequent among patients in the dataset and then visualize it with the help of a word cloud. Initial data cleaning was done on Google Colab and further explored with the help of Pandas Library. A couple of cleaning methods were applied and the outputs were generated to be downloaded as the final file. 
+To help clinicians know more about which symptoms of Covid Vaccine were most frequent among patients in the dataset and then visualize it with the help of a word cloud. Initial data cleaning was done on Google Colab and further explored with the help of Pandas Library. A couple of cleaning methods were applied and the outputs were generated to be downloaded as the final file. 
 
 ## Tools used:
 Google Colab, Python
@@ -28,12 +28,14 @@ The astype ensures that each value of the text variable holds a string rather th
 Once the text had the data from the column it was passed to the WordCloud object that took the stopwords and the text as parameters and saved in a new variable. The variable was then used to pass to the PLT object that helped to display the wordcloud image.
 There were three different results each with a new finding and improvement from the previous results.
 
+
+#STOPWORDS Evaluation:
 <img width="400" alt="code3" src="https://user-images.githubusercontent.com/42086991/174860575-23cd30e7-8317-4890-84a5-8912ed5d86e8.png">
-##STOPWORDS Evaluation:
-However, site was being repeated in the cloud and it was not easy to differentiate between the words as they all look similar in terms of the size. Therefore, to improve the NLP technique another test was performed but with more StopWords added such as Injection and Site. Additionally, the previous test only took one column out of the five columns of symptoms in the 1.2 dataset. Therefore, as explained earlier the data was concatenated into one column. This was used for the next dataset. 
+<br>
+However, site was being repeated in the cloud and it was not easy to differentiate between the words as they all look similar in terms of the size. Therefore, to improve the NLP technique another test was performed but with more StopWords added such as Injection and Site. 
 
 <img width="1251" alt="wordcloud" src="https://user-images.githubusercontent.com/42086991/174858105-e5c64136-7489-4e4c-9077-7bb2ac953fd6.png">
-The word cloud highlighted that Pain Rash and Fatigue were the highest most frequent words in the symptoms that patients experienced from taking the vaccine. A second test was done to evaluate the results to see if the frequency count matches the visualization.  The code for that test is depicted below.
+The word cloud depicted that Pain Rash and Fatigue were the most frequent words and therefopre, symptoms that patients experienced from taking the vaccine. A second test was done to evaluate the results to see if the frequency count matches the visualization.  The code for that test is depicted below.
 
                  
 
