@@ -18,8 +18,19 @@ There were three primary steps in building a word cloud:
 
 
 <img width="400" alt="code1" src="https://user-images.githubusercontent.com/42086991/174860710-cd05ecc3-c8fe-461b-b3ac-f9515687995e.png">
+
+This is an extract of the Code for getting the Top words that are most frequent in the symptoms file. The firsts step was to load the dataset. Once it was saved in a dataframe, a new variable called text that helps to concatenate all the words in the symptom1 column and count the bag of words for each instance. The concatenation happens with the “join” word in the code. The stopwords were added to make sure unnecessary words were removed from the text to make the wordcloud more relevant. 
+Additionally, another variable holds a list of values that were manually excluded to improve the results. Further discussion as to why this list was added is explained in the next chapter.
+The astype ensures that each value of the text variable holds a string rather than any other data-type as this would hamper the results. 
+
 <img width="400" alt="code3" src="https://user-images.githubusercontent.com/42086991/174860575-23cd30e7-8317-4890-84a5-8912ed5d86e8.png">
+
+Once the text had the data from the column it was passed to the WordCloud object that took the stopwords and the text as parameters and saved in a new variable. The variable was then used to pass to the PLT object that helped to display the wordcloud image.
+There were three different results each with a new finding and improvement from the previous results.
+
+
 <img width="400" alt="code2" src="https://user-images.githubusercontent.com/42086991/174860677-4988a8fa-c8a5-4099-840d-b330714d039a.png">
+
 <img width="400" alt="code5" src="https://user-images.githubusercontent.com/42086991/174860728-751a5e7e-ba8d-4e15-903c-21a26a1c7a15.png">
 
 
