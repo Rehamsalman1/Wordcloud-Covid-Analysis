@@ -35,15 +35,5 @@ There were three different results each with a new finding and improvement from 
 However, site was being repeated in the cloud and it was not easy to differentiate between the words as they all look similar in terms of the size. Therefore, to improve the NLP technique another test was performed but with more StopWords added such as Injection and Site. 
 
 <img width="1251" alt="wordcloud" src="https://user-images.githubusercontent.com/42086991/174858105-e5c64136-7489-4e4c-9077-7bb2ac953fd6.png">
-The word cloud depicted that Pain Rash and Fatigue were the most frequent words and therefopre, symptoms that patients experienced from taking the vaccine. A second test was done to evaluate the results to see if the frequency count matches the visualization.  The code for that test is depicted below.
-
-                 
-
-The value counts method was used in the Bar chart for the top 5 most frequent words in the dataset. 
-                                        
-
-The bar chart shows that the model matches the visualization as the frequency count is similar to the biggest words in the Fig above. The word cloud tells clinicians which symptom is most frequent.
-<img width="400" alt="wordcloud" src="https://user-images.githubusercontent.com/42086991/174861688-f7028439-cdb1-4c6c-8bb0-060aad82cd11.png">
-
-
+The word cloud depicted that Pain Rash and Fatigue were the most frequent words and therefore, the most common symptoms that patients experienced from taking the vaccine for Coronavirus.
       
