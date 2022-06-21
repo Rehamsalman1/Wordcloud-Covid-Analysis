@@ -29,7 +29,7 @@ The astype ensures that each value of the text variable holds a string rather th
 Once the text had the data from the column it was passed to the WordCloud object that took the stopwords and the text as parameters and saved in a new variable. The variable was then used to pass to the PLT object that helped to display the wordcloud image.
 There were three different results each with a new finding and improvement from the previous results.
 
-#STOPWORDS Evaluation:
+### STOPWORDS:
 <img width="400" alt="code3" src="https://user-images.githubusercontent.com/42086991/174860575-23cd30e7-8317-4890-84a5-8912ed5d86e8.png">
 
 However, site was being repeated in the cloud and it was not easy to differentiate between the words as they all look similar in terms of the size. Therefore, to improve the NLP technique another test was performed but with more StopWords added such as Injection and Site. 
