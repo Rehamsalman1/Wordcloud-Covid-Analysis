@@ -1,4 +1,4 @@
-# Wordcloud-CovidVaccine-Analysis
+# Wordcloud-Covid Vaccine-Analysis
 
 Word Cloud is a visualization technique for text data wherein each word is picturized with its importance in the context or its frequency. 
 
