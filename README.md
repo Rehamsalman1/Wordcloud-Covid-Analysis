@@ -37,7 +37,7 @@ At one interation, it was identified that the word "site" and "Injection" were a
 
 ### VISUALISED WORD CLOUD:
 <img width="1251" alt="wordcloud" src="https://user-images.githubusercontent.com/42086991/174858105-e5c64136-7489-4e4c-9077-7bb2ac953fd6.png">
-After few iterations and cleaning of data the word cloud depicted that "Pain" "Rash" and "Fatigue" were the most frequent words and therefore, the most common symptoms that patients experienced from taking the vaccine for Coronavirus.
+After few iterations and cleaning of data the word cloud depicted that "Pain" "Headache" and "Fatigue" were the most frequent words and therefore, the most common symptoms that patients experienced from taking the vaccine for Coronavirus.
 
 
       
