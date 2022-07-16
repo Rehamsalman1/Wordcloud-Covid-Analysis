@@ -39,5 +39,11 @@ At one interation, it was identified that the word "site" and "Injection" were a
 <img width="1251" alt="wordcloud" src="https://user-images.githubusercontent.com/42086991/174858105-e5c64136-7489-4e4c-9077-7bb2ac953fd6.png">
 After few iterations and cleaning of data the word cloud depicted that "Pain" "Headache" and "Fatigue" were the most frequent words and therefore, the most common symptoms that patients experienced from taking the vaccine for Coronavirus.
 
-
+A second test was done to evaluate the results to see if the frequency count matches the visualization. The code for that test is depicted below.
       
+<img width="688" alt="Screen Shot 2022-07-16 at 7 38 23 PM" src="https://user-images.githubusercontent.com/42086991/179361772-21bd445e-ba82-4cf5-a142-e8df9562e802.png">
+
+The value counts method was used in the Bar chart for the top 5 most frequent words in the dataset. 
+
+<img width="530" alt="Screen Shot 2022-07-16 at 7 38 32 PM" src="https://user-images.githubusercontent.com/42086991/179361786-260392e9-6c4e-4b58-b4e3-c22b01e5c02b.png">
+The bar chart shows that the model matches the visualization as the frequency count is similar to the biggest words in the Fig above. The word cloud tells clinicians which symptom is most frequent but to get a deeper analysis about the patients a dashboard was created with a summarization of the key values from the dataset.
