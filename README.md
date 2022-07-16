@@ -25,7 +25,7 @@ Additionally, another variable holds a list of values that were manually exclude
 The astype ensures that each value of the text variable holds a string rather than any other data-type as this would hamper the results. 
 
 
-<img width="400" alt="code2" src="<img width="400" alt="code2" src="https://user-images.githubusercontent.com/42086991/174860677-4988a8fa-c8a5-4099-840d-b330714d039a.png">"
+<img width="400" alt="code2" src="https://user-images.githubusercontent.com/42086991/174860677-4988a8fa-c8a5-4099-840d-b330714d039a.png">"
 
 Once the text had the data from the column it was passed to the WordCloud object that took the stopwords and the text as parameters and saved in a new variable. The variable was then used to pass to the PLT object that helped to display the wordcloud image.
 There were three different results each with a new finding and improvement from the previous results.
